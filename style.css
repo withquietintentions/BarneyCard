@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  
+background-image:url("assets/barneyHLOG.jpeg");
+/*   background-color: coral; */
+ 
+}
+canvas {
+ /*display: block;*/
+  z-index:999;
+  position: absolute;
+  margin-top:50px;
+ 
+  
+}
+
+button{
+  padding: 10px;
+  margin:10px;
+  
+  
+}
