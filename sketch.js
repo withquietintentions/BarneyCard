@@ -4,7 +4,7 @@ var scaleC = 0.9;
 var scaleL = 0.3;
 
 function preload() {
-  cake = createImg("assets/cake.pcake", "cake");
+  cake = createImg("assets/cake.png", "cake");
  letters = createImg("assets/cakelettersHL.png", "cake");
 }
 
@@ -23,7 +23,7 @@ function setup() {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-   
+
   cnv = createCanvas(windowWidth, windowHeight);
   //background(255,200,10,50)
   cnv.position(0, 0);
