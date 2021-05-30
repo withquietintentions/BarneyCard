@@ -32,7 +32,7 @@ function setup() {
   saveButton.mousePressed(saveSig);
   img = createImage(windowWidth, windowHeight);
 }
-
+//making a change
 function draw() {
   cake.position(0.1 * windowWidth, 0.1 * windowHeight);
   cake.size(scaleC * windowHeight, scaleC * windowHeight);
